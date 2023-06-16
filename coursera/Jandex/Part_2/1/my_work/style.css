@@ -1,0 +1,201 @@
+/* Звездный рейтинг */
+.rating {
+    margin: 0 0 1em 0;
+    padding: 0;
+    border: none;
+}
+
+.rating__caption {
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.rating__group {
+    position: relative;
+    width: 10em;
+    height: 2em;
+    background-image: url(img/off.svg);
+    background-size: 2em auto;
+    background-repeat: repeat-x;
+}
+
+.rating__group:focus-within {
+    outline: 0.2em solid #4a90e2;
+    outline-offset: 0.2em;
+}
+
+.rating__star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 2em;
+    font-size: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 2em auto;
+    background-repeat: repeat-x;
+}
+
+.rating__star:focus {
+    outline: none;
+}
+
+.rating__star:hover,
+.rating__star:checked {
+    background-image: url(img/on.svg);
+}
+
+.rating__star:hover ~ .rating__star {
+    background-image: url(img/off.svg);
+}
+
+.rating__star:nth-of-type(1) {
+    z-index: 10;
+    width: 1em;
+}
+
+.rating__star:nth-of-type(2) {
+    z-index: 9;
+    width: 2em;
+}
+
+.rating__star:nth-of-type(3) {
+    z-index: 8;
+    width: 3em;
+}
+
+.rating__star:nth-of-type(4) {
+    z-index: 7;
+    width: 4em;
+}
+
+.rating__star:nth-of-type(5) {
+    z-index: 6;
+    width: 5em;
+}
+
+.rating__star:nth-of-type(6) {
+    z-index: 5;
+    width: 6em;
+}
+.rating__star:nth-of-type(7) {
+    z-index: 4;
+    width: 7em;
+}
+.rating__star:nth-of-type(8) {
+    z-index: 3;
+    width: 8em;
+}
+.rating__star:nth-of-type(9) {
+    z-index: 2;
+    width: 9em;
+}
+.rating__star:nth-of-type(10) {
+    z-index: 1;
+    width: 10em;
+}
+
+/* Карточки/Список */
+section{
+    display: inline-block;
+    
+}
+
+input[id="list_of_cats"]:checked ~ article .cat_card{
+    margin: 30px;
+    /* width: 210px; */
+    /* border: 1px solid #000; */
+    display: block;
+}
+
+input[id="list_of_cats"]:checked ~ article .cat_card .cat_img1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+}
+
+input[id="list_of_cats"]:checked ~ article .cat_card .cat_text1{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+input[id="list_of_cats"]:checked ~ article .cat_card .cat_text2{
+    display: inline-block;
+    height: 100%;
+    width: 300px;
+    vertical-align: top;
+}
+
+
+/* Остальные стили */
+.cat_card{
+margin: 10px;
+height: 100%;
+vertical-align: top;
+}
+
+.cat_text1, .cat_text2{
+    padding: 10px;
+}
+
+.cat_name:hover{
+    transition: 0.3s;
+    color: red;
+}
+
+.cat_img{
+    width: 100%;
+}
+
+.cat_img:hover{
+    transition: 0.3s;
+    opacity:  0.7;
+}
+
+.cat_name{
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 23px;
+}
+
+.cat_text2{
+    width: 300px;
+}
+
+.cat_category{
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.cat_price{
+    color: DarkRed;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.old_cat_price{
+    color: gray;
+    text-decoration:line-through;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.cat_description{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.cat_img1:hover ~ .cat_text1 a p {
+    color: red;
+    transition: 0.3s;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Sansita One Regular';
+    src: url('fonts/SansitaOne.woff'),
+    url('fonts/SansitaOne.ttf');
+    }
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+}
+
+h1, h2 {
+    color: #c60;
+    border-bottom: thin dotted #888;
+}
+
+h1 {
+    font-family: 'Sansita One Regular', sans-serif;
+    font-size: 220%;
+}
+
+h2{
+    font-size: 130%;
+    font-weight: normal;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+table {
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border: thin solid black; 
+    caption-side: bottom;
+    border-collapse: collapse;
+    }
+
+    /* tr:nth-child(odd) {
+        background-color: #fcba7a;
+    } */
+
+    th {
+        background-color: #c60;
+    }
+
+    td, th {
+    border: thin dotted gray; 
+    padding: 5px;
+    }
+
+    th, td.center{
+        text-align: center;
+    }
+
+    td.right{
+        text-align: right;
+    }
+
+    .cellcolor {
+        background-color: #fcba7a;
+    }
+
+    table table {
+        margin: 0 auto;
+    }
+
+    table table th{
+        background-color: white;
+    }
+
+    caption {
+    font-style: italic; 
+    padding-top: 8px;
+    }
+
+    li {
+        list-style-image: url(images/backpack.gif);
+        padding-top: 5px;
+        margin-left: 20px;
+    }

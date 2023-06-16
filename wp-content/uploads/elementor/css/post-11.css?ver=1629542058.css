@@ -1,0 +1,51 @@
+.elementor-kit-11{--e-global-color-primary:#FF0000;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-343fb84:#111140;--e-global-typography-primary-font-family:"GothamPro";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-7ff8d9b-font-family:"GothamPro";--e-global-typography-7ff8d9b-font-size:30px;--e-global-typography-7ff8d9b-font-weight:600;background-color:#F6F6F9;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Medium.eot');
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Medium.woff') format('woff'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Black.eot');
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Black.woff') format('woff'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Bold.eot');
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Bold.woff') format('woff'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Light.eot');
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Light.woff') format('woff'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GothamPro';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro.eot');
+	src: url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro.woff') format('woff'),
+		url('https://pl-site.ru/wp-content/uploads/2021/08/GothamPro.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

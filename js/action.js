@@ -36,6 +36,11 @@ if(params['utm_source'] == 'yandex' || params['utm_source'] == 'google'){
     dataset = 'Источник: ' +  params['utm_source'] + ' ключевое слово: ' + params['utm_term']
 }
 
+const currentYear = new Date().getFullYear();
+const yearElements = document.getElementsByClassName('current-year');
+for (let i = 0; i < yearElements.length; i++) {
+  yearElements[i].textContent = currentYear;
+}
 
 jQuery(window).scroll(function(){
 
